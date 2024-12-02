@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/box0"
+        app:cardCornerRadius="20dp"
+        android:elevation="5dp"
+        android:layout_width="200dp"
+        android:layout_height="290dp"
+        android:backgroundTint="@color/reds"
+        android:layout_margin="5dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/ratingBar"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ratingcard"
+                    android:paddingTop="8dp"
+                    android:text="3.4"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/heartBar"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/heart" />
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/prodImg"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:src="@drawable/thumbnail" />
+
+            <TextView
+                android:id="@+id/prodTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Essence Mascara Lash Princess"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prodDes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8dp"
+                android:layout_marginLeft="5dp"
+                android:textAlignment="textStart"
+                android:text="The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula." />
+
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="  $ 9.99"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/addBtn"
+                    android:backgroundTint="@color/bluegry"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Add"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/box1"
+        app:cardCornerRadius="20dp"
+        android:elevation="5dp"
+        android:layout_width="200dp"
+        android:layout_height="290dp"
+        android:backgroundTint="@color/reds"
+        android:layout_margin="5dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/ratingBar1"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ratingcard"
+                    android:paddingTop="8dp"
+                    android:text="3.4"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/heartBar1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/heart" />
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/prodImg1"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:src="@drawable/thumbnail" />
+
+            <TextView
+                android:id="@+id/prodTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Essence Mascara Lash Princess"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prodDes1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8dp"
+                android:layout_marginLeft="5dp"
+                android:textAlignment="textStart"
+                android:text="The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula." />
+
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/price1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="  $ 9.99"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/addBtn1"
+                    android:backgroundTint="@color/bluegry"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Add"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
